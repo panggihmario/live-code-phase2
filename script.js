@@ -50,7 +50,7 @@ new Vue({
                     authorization : token
                 }
             })
-            .then(function(response){
+            .then((response)=>{
                 console.log(response.data)
                this.allimage = response.data
             })
